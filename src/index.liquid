@@ -1,0 +1,11 @@
+---
+layout: page.liquid
+title: idk what title
+---
+<h1>this is the index page!</h1>
+
+{%- for project in collections.projects -%}
+  <div>project! </div>
+  <div>{{ project.title }}</div>
+{%- endfor -%}
+
