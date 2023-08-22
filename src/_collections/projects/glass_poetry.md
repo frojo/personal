@@ -1,7 +1,8 @@
 ---
-tags: project
-title: glass poetry
-subtitle: text as pixels
-
-date-completed: August 2022
+id: "glass-poetry"
+title: "glass poetry"
+subtitle: "text as pixels"
+link: "work/glass-poetry.html"
+tags: "project"
+date-completed: "August 2022"
 ---

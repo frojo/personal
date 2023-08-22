@@ -1,0 +1,240 @@
+body {
+  font-family: "Times New Roman", serif;
+
+  margin: 0px;
+
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  /* not too wide */
+  max-width: 700px;
+
+  background-size: cover;
+  background-position: center center;
+
+  /* 
+  image-rendering: pixelated;
+  */
+}
+
+
+::selection {
+  background: rgba(0, 0, 0, .99);
+  color: white;
+}
+
+/* get rid of default html link styling*/
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+
+/* enable this if i want to do weird shit?
+* {
+  user-select: none !important;
+}
+*/
+
+@media screen and (max-width: 600px) {
+}
+
+#page {
+  /* nice big margins give you room to breathe*/
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  /* not too wide */
+  max-width: 900px;
+
+}
+
+
+/* header nav bar*/
+
+#header {
+  font-size: 28px;
+  margin-bottom: 48px;
+
+  /* i think it's nice when u can make the words jumble
+  min-width: 280px;
+  */
+}
+
+#name {
+  display: inline;
+}
+
+#name:hover {
+  display: inline;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+
+/* container for menu items (work, about blog) */
+#header-menu-wrapper {
+  float: right;
+}
+
+.header-menu-item {
+  display: inline;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.header-menu-item:hover {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.underline-dashed{
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+/* project list page */
+
+.project-item {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.project-title {
+  font-size: 28px;
+  display: inline;
+}
+
+.project-subtitle {
+  font-size: 16px;
+  margin-left:32px;
+  display: inline;
+}
+
+/* archive view*/
+.archive-item {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+
+.archive-title {
+  font-size: 20px;
+  display: inline-block;
+  white-space: normal;
+}
+
+.archive-title:hover {
+  color: white;
+  background-color: black;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.featured-item {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.featured-title {
+  font-size: 32px;
+}
+
+.archive-date {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 16px;
+
+  /* nice */
+  width: 69px;
+}
+
+.about a {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.documentation a {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+/* classes for the weird interactive theming */
+
+/* off-white backgrounds colors */
+.yellow-bg {
+  background-color: #FFF8E6;
+}
+
+.purple-bg {
+  background-color: #fcebff;
+}
+
+.blue-bg {
+  background-color: #efffff;
+}
+
+.green-bg {
+  background-color: #eaffee;
+}
+
+/* visited link colors */
+.yellow-link:visited {
+ /*
+  color: #c4ad6c;
+  color: #946f07;
+  */
+  color: #806418;
+}
+
+.purple-link:visited {
+ /* 
+  color: #bf89c2;
+  */
+  color: #98289e
+}
+
+.blue-link:visited {
+ /*
+  color: #6cc4bd;
+  */
+  color: #00a99b;
+}
+
+.green-link:visited {
+ /*
+  color: #6a9f70;
+  */
+  color: #12821f
+}
+
+/* hover effects */
+
+.blacked-out {
+  left: 1000px;
+  color: black;
+  background-color: black;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.waves-bg {
+  /* livingstills.nl */
+  background-image: url(assets/waves.gif);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.black-bg {
+  background-color: black;
+}

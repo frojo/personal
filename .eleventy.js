@@ -1,7 +1,9 @@
 module.exports = function (config) {
-  // -- constants --
   const srcDir = "src"
   const dstDir = "public"
+
+  config.addPassthroughCopy(`${srcDir}/**/*.css`)
+  config.addPassthroughCopy(`${srcDir}/**/*.js`)
 
   return {
     dir: {
