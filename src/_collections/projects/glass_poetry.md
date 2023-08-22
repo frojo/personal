@@ -1,6 +1,7 @@
---
-tags: projects
+---
+tags: project
 title: glass poetry
 subtitle: text as pixels
-date: August 2022
---
+
+date-completed: August 2022
+---

@@ -1,11 +1,14 @@
 ---
 layout: page.liquid
 title: idk what title
+
+eleventyImport:
+  collections: ["projects"]
 ---
 <h1>this is the index page!</h1>
 
-{%- for project in collections.projects -%}
-  <div>project! </div>
-  <div>{{ project.title }}</div>
+{%- for project in collections.project -%}
+  <div>{{ project.data.title }}</div>
+  {% render "project_item.liquid", project: project %}
 {%- endfor -%}
 

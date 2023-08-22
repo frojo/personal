@@ -1,8 +1,8 @@
---
-tags: projects
+---
+tags: project
 title: discone
 subtitle: a run & jump & talk 'em-up
-date: May 2022
+date-completed: May 2022
 documentation: false
 featured: true
---
+---
