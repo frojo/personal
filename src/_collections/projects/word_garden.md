@@ -14,6 +14,6 @@ this is a small experimental toy made with [p5js](https://p5js.org/). please try
 
 be gentle; too many words makes her run slowly
 
-<iframe src="word-garden-sketch.html" frameborder="0" scrolling="no" height="740" width="100%" allowfullscreen="true"></iframe>
+<iframe src="/assets/word-garden/word-garden-sketch.html" frameborder="0" scrolling="no" height="740" width="100%" allowfullscreen="true"></iframe>
 
 [p5js sketch code](https://github.com/frojo/word-garden)

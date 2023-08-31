@@ -15,4 +15,4 @@ The lecture consisted of two parts: a theory section and a hands-on section.
 
 I prepared some [slides](https://docs.google.com/presentation/d/1LM_ch-NtIlEJu10MeQNV5VTnlfvwIEBpT7yYC2g5Ksk/edit?usp=sharing) and a [small toy project](https://github.com/frojo/strongcat) for students to implement some screenshake and hitstop.
 
-![](../assets/strongcat.gif)
+![](/assets/strongcat.gif)
