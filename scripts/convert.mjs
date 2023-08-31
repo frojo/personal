@@ -4,7 +4,7 @@ import TurndownService from 'turndown';
 import { projects } from "./projects.mjs";
 
 
-const OUTPUT_DIR = '../src/_collections/projects/';
+const OUTPUT_DIR = 'temp/';
 
 
 for (const project of projects) {

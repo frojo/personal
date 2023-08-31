@@ -1,7 +1,15 @@
 <div class="archive-item">
+
+  {% if project.data.link contains "http" %}
+  <a href="{{ project.data.link }}"
+     onmouseenter="onHoverEffect(this)"
+     onmouseleave="onLeaveHoverEffect(this)">
+  {% else %}
   <a href="/project/{{ project.data.title | slugify }}/"
      onmouseenter="onHoverEffect(this)"
      onmouseleave="onLeaveHoverEffect(this)">
+  {% endif %}
+
     <span class="archive-date text"><i>{{ project.data.date-completed }}</i></span>
     <span class="archive-title text">{{ project.data.title }}</span> 
   </a>
