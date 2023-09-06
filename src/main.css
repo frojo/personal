@@ -61,7 +61,7 @@ img {
 /* header nav bar*/
 
 #header {
-  font-size: 28px;
+  font-size: 24px;
   margin-bottom: 48px;
 
   /* i think it's nice when u can make the words jumble
@@ -71,6 +71,7 @@ img {
 
 #name {
   display: inline;
+  font-size: 28px;
 }
 
 #name:hover {
@@ -86,9 +87,14 @@ img {
 }
 
 .header-menu-item {
+  font-size: 24px;
+
   display: inline;
   margin-left: 14px;
   margin-right: 14px;
+
+  text-decoration: underline;
+  text-decoration-style: dashed;
 }
 
 .header-menu-item:hover {
@@ -118,6 +124,28 @@ img {
   margin-left:32px;
   display: inline;
 }
+
+/* CV */
+
+.cv {
+  --textcolor: #98289e;
+}
+
+.cv h1 {
+  font-size: 18px;
+  color: var(--textcolor);
+}
+
+.cv p {
+  font-size: 20px;
+}
+
+.cv .date {
+  font-style: italic;
+  color: grey;
+  font-size: 16px;
+}
+
 
 /* archive view*/
 .archive-item {

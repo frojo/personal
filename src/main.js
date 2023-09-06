@@ -186,15 +186,16 @@ function applyBlackHighlight(projectItemElm) {
 
 const NAMES = [
   "fran",
-  "Francisco",
-  "Mo",
-  "blogzor",
-  "mojoz0",
-  "franrojo94",
-  "Franny",
-  "franathon",
-  "zar",
-  "/ˈfran/"
+  "Fran Rojo"
+  // "Francisco",
+  // "Mo",
+  // "blogzor",
+  // "mojoz0",
+  // "franrojo94",
+  // "Franny",
+  // "franathon",
+  // "zar",
+  // "/ˈfran/"
 ]
 let curr_name = 0;
 
