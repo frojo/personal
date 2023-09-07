@@ -8,7 +8,7 @@ title: about page
 
   Engineer, educator, and designer living in Brooklyn, NY.
 
-  Fran teaches game development to undergraduates at various universities in New York. In their personal practice, they make spaces for you to walk around in, usually in the web. For example, a <a href="https://dumpling.love/">a websitepark that grows organically from the whims of its creators</a>, or <a href="/work/souls.html">a subversion of "social network"</a>, or a <a href="https://frojo.itch.io/camping">visual novel</a>. 
+  Fran teaches game development to undergraduates at various universities in New York. In their creative practice, they often make small projects over the course of a month or two. They make spaces for you to walk around in, usually in the web. 
 
   They use a variety of tools and software, including p5js, Unity, React, Godot, Threejs, PICO-8, Bitsy, Javascript/HTML/CSS, and Twine.
   

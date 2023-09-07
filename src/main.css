@@ -110,9 +110,13 @@ img {
 
   /* disable background color on hover */
   background-color: rgba(0, 0, 0, 0);
-  color: var(--text-color);
+  color: black;
   text-decoration: underline;
   text-decoration-style: dashed;
+}
+
+#name:visited {
+  color: var(--text-color);
 }
 
 
