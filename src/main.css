@@ -1,3 +1,18 @@
+:root {
+  --yellow-text: #806418;
+  --purple-text: #98289e;
+  --blue-text: #00a99b;
+  --green-text: #12821f;
+  --text-color: var(--yellow-text);
+
+
+  --yellow-bg: #fff8e6;
+  --purple-bg: #fcebff;
+  --blue-bg: #efffff;
+  --green-bg: #eaffee;
+  --bg-color: var(--green-bg);
+}
+
 body {
   font-family: "Times New Roman", serif;
 
@@ -13,6 +28,10 @@ body {
 
   background-size: cover;
   background-position: center center;
+
+  background-color: var(--bg-color);
+  /*
+  */
 
   /* 
   image-rendering: pixelated;
@@ -32,10 +51,15 @@ a {
   text-decoration-style: dashed;
 }
 
+a:visited {
+  color: var(--text-color);
+}
+
 a:hover{
   color: white;
   background-color: black;
 }
+
 
 img {
   width: 100%;
@@ -86,6 +110,7 @@ img {
 
   /* disable background color on hover */
   background-color: rgba(0, 0, 0, 0);
+  color: var(--text-color);
   text-decoration: underline;
   text-decoration-style: dashed;
 }
@@ -103,14 +128,8 @@ img {
   margin-left: 14px;
   margin-right: 14px;
 
-  text-decoration: underline;
-  text-decoration-style: dashed;
 }
 
-.header-menu-item:hover {
-  text-decoration: underline;
-  text-decoration-style: dashed;
-}
 
 /* project list page */
 
@@ -133,12 +152,11 @@ img {
 /* CV */
 
 .cv {
-  --textcolor: #98289e;
 }
 
 .cv h1 {
   font-size: 18px;
-  color: var(--textcolor);
+  color: var(--text-color);
 }
 
 .cv p {
@@ -197,53 +215,6 @@ img {
 }
 
 /* classes for the weird interactive theming */
-
-/* off-white backgrounds colors */
-.yellow-bg {
-  background-color: #FFF8E6;
-}
-
-.purple-bg {
-  background-color: #fcebff;
-}
-
-.blue-bg {
-  background-color: #efffff;
-}
-
-.green-bg {
-  background-color: #eaffee;
-}
-
-/* visited link colors */
-.yellow-link:visited {
- /*
-  color: #c4ad6c;
-  color: #946f07;
-  */
-  color: #806418;
-}
-
-.purple-link:visited {
- /* 
-  color: #bf89c2;
-  */
-  color: #98289e
-}
-
-.blue-link:visited {
- /*
-  color: #6cc4bd;
-  */
-  color: #00a99b;
-}
-
-.green-link:visited {
- /*
-  color: #6a9f70;
-  */
-  color: #12821f
-}
 
 /* hover effects */
 

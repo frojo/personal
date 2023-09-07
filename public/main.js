@@ -2,7 +2,7 @@ const faviconElm = document.querySelector("link[rel~='icon']");
 
 const textElms = document.getElementsByClassName("text");
 
-let ASSETS_DIR = "assets/"
+let ASSETS_DIR = "/assets/"
 
 const BACKGROUNDS = [
   "tower.gif",
@@ -97,15 +97,16 @@ function onLeaveHoverEffect(elm) {
 }
 
 
-// colors
-const BG_COLORS = ["yellow-bg", "purple-bg", 
-                     "blue-bg", "green-bg"];
 
 const FAVICONS = ["yellow-favicon.png", "purple-favicon.png", 
                   "blue-favicon.png", "green-favicon.png"];
 
-const LINK_COLORS = ["yellow-link", "purple-link", 
+
+/*
+"yellow-link", "purple-link", 
                      "blue-link", "green-link"];
+
+                     */
 
 // backgrounds
 // 3 different flowers
@@ -121,6 +122,22 @@ let link_color;
 
 // this changes the page theme to a new random one
 function applyNewBaseStyles() {
+  const style = getComputedStyle(document.body);
+  
+  const BG_COLORS = [
+    style.getPropertyValue('--yellow-bg'),
+    style.getPropertyValue('--purple-bg'),
+    style.getPropertyValue('--blue-bg'),
+    style.getPropertyValue('--green-bg')
+  ];
+
+  const LINK_COLORS = [
+    style.getPropertyValue('--yellow-text'),
+    style.getPropertyValue('--purple-text'),
+    style.getPropertyValue('--blue-text'),
+    style.getPropertyValue('--green-text')
+  ];
+
 
   const possible = BG_COLORS.length;
   let new_bg_color = Math.floor(Math.random() * possible);
@@ -144,22 +161,10 @@ function applyNewBaseStyles() {
   link_color = LINK_COLORS[new_link_color];
   favicon = FAVICONS[new_bg_color];
 
-  if (old_bg_color) {
-    console.log("replace!");
-    document.body.classList.replace(old_bg_color, bg_color);
-  } else {
-    console.log("add!");
-    document.body.classList.add(bg_color);
-  }
+  console.log(link_color);
+  document.documentElement.style.setProperty('--text-color', link_color);
+  document.documentElement.style.setProperty('--bg-color', bg_color);
   
-  const linkElms = document.getElementsByTagName("a");
-  for (a of linkElms) {
-    if (old_link_color) {
-      a.classList.replace(old_link_color, link_color);
-    } else {
-      a.classList.add(link_color);
-    }
-  }
 
   faviconElm.href = ASSETS_DIR + favicon;
 
