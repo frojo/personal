@@ -28,7 +28,13 @@ body {
 /* get rid of default html link styling*/
 a {
   color: inherit;
-  text-decoration: inherit;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+a:hover{
+  color: white;
+  background-color: black;
 }
 
 img {
@@ -72,10 +78,14 @@ img {
 #name {
   display: inline;
   font-size: 28px;
+  text-decoration: inherit;
 }
 
 #name:hover {
   display: inline;
+
+  /* disable background color on hover */
+  background-color: rgba(0, 0, 0, 0);
   text-decoration: underline;
   text-decoration-style: dashed;
 }
@@ -98,11 +108,6 @@ img {
 }
 
 .header-menu-item:hover {
-  text-decoration: underline;
-  text-decoration-style: dashed;
-}
-
-.underline-dashed{
   text-decoration: underline;
   text-decoration-style: dashed;
 }
@@ -158,6 +163,8 @@ img {
   font-size: 20px;
   display: inline-block;
   white-space: normal;
+  text-decoration: underline;
+  text-decoration-style: dashed;
 }
 
 .archive-title:hover {
@@ -185,14 +192,8 @@ img {
   width: 69px;
 }
 
-.about a {
-  text-decoration: underline;
-  text-decoration-style: dashed;
-}
-
-.documentation a {
-  text-decoration: underline;
-  text-decoration-style: dashed;
+.about {
+  font-size: 18px;
 }
 
 /* classes for the weird interactive theming */

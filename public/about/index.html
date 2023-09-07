@@ -13,60 +13,36 @@
 
     <!-- header/navbar -->
     <div id="header">
-      <a href="/"><div id="name" class="text" onmouseenter="onNameHover(this)">Fran Rojo</div></a>
+      <a href="/about" id="name" onmouseenter="onNameHover(this)">Fran Rojo</a>
       <div id="header-menu-wrapper">
-        <a href="/about"><div id="about-header" class="header-menu-item text">about</div></a>
-        <!--
-        <a href="/cv"><div id="work-header" class="header-menu-item text">cv</div></a>
-        -->
-        <a href="/archive"><div id="work-header" class="header-menu-item text">archive</div></a>
+        <a href="/about" id="about-header" class="header-menu-item">about</a>
+        <a href="/archive" id="work-header" class="header-menu-item">archive</a>
       </div>
     </div>
 
     <!-- content -->
-    
-
-<div class="about">
-
-<p><i>Me:</i> Hello! Please tell me why you're here.</p>
-
-<p><i>You:</i> I am 
-<select id="context" onchange="onContextChanged(this)">
-  <option selected value="professional">considering you for a job/grant/residency/etc.</option>
-  <option value="chilling">wasting time on the internet</option>
-</select>
-</p>
-
+    <div class="about">
+<p>Engineer, educator, and designer living in Brooklyn, NY.</p>
+<p>Fran teaches game development to undergraduates at various universities in New York. In their personal practice, they make spaces for you to walk around in, usually in the web. For example, a <a href="https://dumpling.love/">a websitepark that grows organically from the whims of its creators</a>, or <a href="/work/souls.html">a subversion of &quot;social network&quot;</a>, or a <a href="https://frojo.itch.io/camping">visual novel</a>.</p>
+<p>They use a variety of tools and software, including p5js, Unity, React, Godot, Threejs, PICO-8, Bitsy, Javascript/HTML/CSS, and Twine.</p>
+<p>They can be contacted at franmorojo at gmail dot com</p>
+<p><a href="/cv">CV</a></p>
+</div>
 <hr>
-
-<div id="professional-about">
-  <p>I make spaces for you to walk around in. For example, a <a href="https://dumpling.love/">a websitepark that grows organically from the whims of its creators</a>, or <a href="/work/souls.html">a subversion of "social network"</a>, or a <a href="https://frojo.itch.io/camping">visual novel</a>. You can see more of my work <a href="https://frojo.itch.io">here</a> or <a href="/work">here</a>.</p>
-
-  <p>To make this work, I've used a variety of tools and software, including p5js, Unity, React, Godot, Threejs, PICO-8, Bitsy, Javascript/HTML/CSS, and Twine.</p>
-  
-  <p>I have <a href="/work/pico8-pcd2020">given a talk</a> and taught <a href="/work/gamefeel-juice">a lecture</a> as well as a <a href="/work/godot-workshop">couple</a> <a href="https://www.youtube.com/watch?v=8MUizBLd_7c">workshops</a> on PICO-8 and Godot (game-making tools).</p>
-  
-  <p>You can get a sense for my taste from the design of this very website that you are visiting :)</p>
-  
-  <p>I'm interested in opportunities to teach interactive media/videogame design.</p>
-  
-  <p></p>
-  <p>If you're interested in working with me, shoot me an email: franmorojo at gmail dot com </p>
-  <p><a href="assets/cv.pdf">CV</a></p>
-
-</div>
-<div id="chilling-about" style="display: none;">
-  <p>Hellooo welcome have some tea,</p>
-  <img style="width: 150px;" src="assets/tea.gif" />
-  <p>if you click this link you can play a random thing that i've made: <a href="random.html">LIIIIIINK</a></p>
-  <p>here are a few things that I am particularly proud of:</p>
-  <p><a href="https://dumpling.love/">dumpling.love</a></p>
-  <p><a href="https://frojo.itch.io/unity-sunset">default sunset</a></p>
-  <p><a href="https://frojo.itch.io/loops">loops</a></p>
-  <p></p>
-  <p></p>
-  <p></p>
-</div>
+<p><button 
+  onclick="document.getElementById('about-hidden1').style.display = 'block'">
+Oh, I'm just wasting time on the internet
+</button></p>
+<div id="about-hidden1" style="display: none">
+  Hi :) have some tea 
+  <p><img style="width: 150px;" src="/assets/tea.gif" /></p>
+<p><button 
+    onclick="document.getElementById('about-hidden2').style.display = 'block'">
+That's a nice crunchy gif of tea
+</button></p>
+<div id="about-hidden2" style="display: none">
+<p><a href="https://sustainablewebdesign.org/">thank you!</a> anyway, you should <a href="/archive">check out something that catches your eye</a></p>
+<div/>
 </div>
 
   </body>

@@ -1,15 +1,15 @@
 ---
-id: "glass-poetry"
-title: "glass poetry"
+id: "text-render-study"
+title: "text render study"
 subtitle: "text as pixels"
 link: "work/glass-poetry.html"
 tags: "project"
 date-completed: "August 2022"
 ---
-glass poetry
+text render study
 ============
 
-I got this idea for making a game, but that instead of being rendered with pixels, it would be rendered with text. I started doing a couple experiments to see how this would work, and they turned out pretty nice.
+I got this idea for a game, but that instead of being rendered with pixels, it would be rendered with text. I started doing a couple experiments to see how this would work, and they turned out pretty nice.
 
 <iframe src="/assets/glass-poetry/base.html" frameborder="0" scrolling="no" height="400" width="100%" allowfullscreen="true"></iframe>
 
