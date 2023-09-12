@@ -6,11 +6,11 @@ title: about page
 
 <div class="about">
 
-  Engineer, educator, and designer living in Brooklyn, NY.
+  Engineer, educator and designer.
 
-  Fran teaches game development to undergraduates at various universities in New York. In their creative practice, they often make small projects over the course of a month or two. They make spaces for you to walk around in, usually in the web. 
+  Fran currently teaches game development to undergraduates at various universities in New York. Before that, they worked as a software engineer at Google, building frontend and backend components to support the reliability of the global Google Shopping infrastructure. In their creative practice, they often make small projects over the course of a month or two. They make spaces for you to walk around in, usually in the web. 
 
-  They use a variety of tools and software, including p5js, Unity, React, Godot, Threejs, PICO-8, Bitsy, Javascript/HTML/CSS, and Twine.
+  They use a variety of tools and software, including Javascript/HTML/CSS, Typescript, React, Three.js, p5js, Unity, Godot, PICO-8, Bitsy, and Twine.
   
   They can be contacted at franmorojo at gmail dot com 
 
