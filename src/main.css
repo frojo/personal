@@ -13,13 +13,8 @@
   --bg-color: var(--green-bg);
 }
 
-body {
-  font-family: "Times New Roman", serif;
-  /*
-  font-size: 18px;
-  */
-  font-size: 1em;
 
+body {
   margin: 0px;
 
   padding-left: 90px;
@@ -40,6 +35,12 @@ body {
   /* 
   image-rendering: pixelated;
   */
+}
+
+button,
+body {
+  font-family: "Times New Roman", serif;
+  font-size: 1em;
 }
 
 
