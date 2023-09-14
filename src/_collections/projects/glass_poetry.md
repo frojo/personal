@@ -4,7 +4,7 @@ title: "text render study"
 subtitle: "text as pixels"
 link: "work/glass-poetry.html"
 tags: "project"
-date-completed: "August 2022"
+date-completed: "August 2023"
 ---
 text render study
 ============

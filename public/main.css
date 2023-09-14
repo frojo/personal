@@ -15,6 +15,10 @@
 
 body {
   font-family: "Times New Roman", serif;
+  /*
+  font-size: 18px;
+  */
+  font-size: 1em;
 
   margin: 0px;
 
@@ -66,14 +70,6 @@ img {
 }
 
 
-/* enable this if i want to do weird shit?
-* {
-  user-select: none !important;
-}
-*/
-
-@media screen and (max-width: 600px) {
-}
 
 #page {
   /* nice big margins give you room to breathe*/
@@ -91,8 +87,7 @@ img {
 /* header nav bar*/
 
 #header {
-  font-size: 24px;
-  margin-bottom: 48px;
+  margin-bottom: 3em;
 
   /* i think it's nice when u can make the words jumble
   min-width: 280px;
@@ -101,7 +96,7 @@ img {
 
 #name {
   display: inline;
-  font-size: 28px;
+  font-size: 1.7em;
   text-decoration: inherit;
 }
 
@@ -126,7 +121,7 @@ img {
 }
 
 .header-menu-item {
-  font-size: 24px;
+  font-size: 1.5em;
 
   display: inline;
   margin-left: 14px;
@@ -159,18 +154,18 @@ img {
 }
 
 .cv h1 {
-  font-size: 18px;
+  font-size: 1em;
   color: var(--text-color);
 }
 
 .cv p {
-  font-size: 20px;
+  font-size: 1.2em;
 }
 
 .cv .date {
   font-style: italic;
   color: grey;
-  font-size: 16px;
+  font-size: .7em;
 }
 
 
@@ -179,10 +174,12 @@ img {
   margin-top: 4px;
   margin-bottom: 4px;
   white-space: nowrap;
+
+  font-size: 1em;
 }
 
 .archive-title {
-  font-size: 20px;
+  font-size: 1.4em;
   display: inline-block;
   white-space: normal;
   text-decoration: underline;
@@ -206,16 +203,15 @@ img {
 }
 
 .archive-date {
-  font-size: 14px;
+  font-size: .9em;
   display: inline-block;
   margin-right: 16px;
 
   /* nice */
-  width: 69px;
+  width: 5em;
 }
 
 .about {
-  font-size: 18px;
 }
 
 /* classes for the weird interactive theming */
@@ -242,3 +238,30 @@ img {
 .black-bg {
   background-color: black;
 }
+
+
+
+/* mobile */
+@media only screen and (device-width < 480px){
+
+  body {
+    font-size: 3em;
+    padding: 70px;
+  
+    /* not too wide */
+    max-width: 2000px;
+  
+  }
+
+  .archive-item {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .archive-date {
+    display: none;
+  }
+
+}
+
+
