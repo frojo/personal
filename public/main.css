@@ -13,13 +13,8 @@
   --bg-color: var(--green-bg);
 }
 
-body {
-  font-family: "Times New Roman", serif;
-  /*
-  font-size: 18px;
-  */
-  font-size: 1em;
 
+body {
   margin: 0px;
 
   padding-left: 90px;
@@ -40,6 +35,12 @@ body {
   /* 
   image-rendering: pixelated;
   */
+}
+
+button,
+body {
+  font-family: "Times New Roman", serif;
+  font-size: 1em;
 }
 
 
@@ -242,14 +243,15 @@ img {
 
 
 /* mobile */
-@media only screen and (device-width < 480px){
+@media only screen and (max-width: 480px) {
 
   body {
+    padding: 36px;
+    /* 
     font-size: 3em;
-    padding: 70px;
+    */
   
     /* not too wide */
-    max-width: 2000px;
   
   }
 
