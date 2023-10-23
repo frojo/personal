@@ -3,7 +3,9 @@ id: "text-render-study"
 title: "text render study"
 subtitle: "text as pixels"
 link: "work/glass-poetry.html"
-tags: "project"
+tags: 
+  - "project"
+  - "cotton"
 date-completed: "August 2023"
 ---
 text render study

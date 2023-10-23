@@ -1,0 +1,11 @@
+---
+layout: page.liquid
+title: cotton-work
+---
+
+<h1><i>Selected work for Cotton</i></h1>
+
+{%- for project in collections.cotton -%}
+  {% render "project_item.liquid", project: project %}
+{%- endfor -%}
+
