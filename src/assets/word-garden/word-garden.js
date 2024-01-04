@@ -7,7 +7,7 @@
   const fontSize = 32;
 
   preload = function() {
-    font = loadFont("../assets/times-new-roman.ttf");
+    font = loadFont("times-new-roman.ttf");
   }
 
   setup = function() {
