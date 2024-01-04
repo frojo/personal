@@ -31,7 +31,7 @@ title: index
 
 # talks
 
-**"Make your First Video Game With PICO-8!”** Babycastles Academy, <span class="date">2021</span>
+**“Make your First Video Game With PICO-8!”** Babycastles Academy, <span class="date">2021</span>
 
 **“Godot Workshop”** Babycastles Academy, <span class="date">2020</span>
 
