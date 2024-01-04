@@ -5,6 +5,7 @@ link: "work/gamefeel-juice.html"
 documentation: false
 tags: "project"
 date-completed: "Nov. 2021"
+date: 2021-11-01
 ---
 Gamefeel/Juice lecture
 ======================

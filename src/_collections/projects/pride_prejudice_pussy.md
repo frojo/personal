@@ -5,6 +5,7 @@ subtitle: "surrealist erotica"
 link: "work/pride-prejudice-pussy.html"
 documentation: true
 date-completed: "Mar. 2020"
+date: 2020-03-01
 ---
 Pride and Prejudice and Pussy
 =============================

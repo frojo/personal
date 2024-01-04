@@ -6,6 +6,7 @@ link: "work/souls.html"
 documentation: true
 tags: "project"
 date-completed: "Aug. 2020"
+date: 2020-08-01
 ---
 sou.ls
 ======

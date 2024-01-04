@@ -1,4 +1,9 @@
 module.exports = function (config) {
+  config.addFilter("uppercaseFirstLetter", function(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1)
+  })
+
+
   const srcDir = "src"
   const dstDir = "public"
 

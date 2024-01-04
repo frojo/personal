@@ -6,4 +6,5 @@ link: "https://frojo.itch.io/july4"
 documentation: false
 tags: "project"
 date-completed: "July 2020"
+date: 2020-07-01
 ---

@@ -6,6 +6,7 @@ link: "work/pico8-pcd2020.html"
 documentation: true
 tags: "project"
 date-completed: "Feb. 2020"
+date: 2020-02-01
 ---
 Intro. to PICO-8: The joy of working with limitations
 =====================================================

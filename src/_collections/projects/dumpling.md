@@ -9,4 +9,5 @@ tags:
   - "project"
   - "cotton"
 date-completed: "Dec. 2021"
+date: 2021-12-01
 ---

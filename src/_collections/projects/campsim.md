@@ -6,4 +6,5 @@ link: "https://frojo.itch.io/camping"
 documentation: false
 tags: "project"
 date-completed: "Sept. 2020"
+date: 2020-09-01
 ---

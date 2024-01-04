@@ -6,6 +6,7 @@ link: "work/godot-workshop.html"
 documentation: true
 tags: "project"
 date-completed: "May 2020"
+date: 2020-05-01
 ---
 Godot workshop for Babycastles Academy
 ======================================

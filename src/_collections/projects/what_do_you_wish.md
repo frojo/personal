@@ -6,6 +6,7 @@ link: "work/what-do-you-wish.html"
 documentation: true
 tags: "project"
 date-completed: "Dec. 2019"
+date: 2019-12-01
 ---
 what do you wish you could say?
 ===============================

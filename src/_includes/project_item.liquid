@@ -7,6 +7,6 @@
   <a href="/project/{{ project.data.title | slugify }}/">
   {% endif %}
 
-  <span class="archive-title text">{{ project.data.title }}</span>
+  <span class="archive-title text">{{ project.data.title | uppercaseFirstLetter }}</span>
   </a>
 </div>

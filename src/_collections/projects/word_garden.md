@@ -8,6 +8,7 @@ tags:
   - "project"
   - "cotton"
 date-completed: "Mar. 2020"
+date: 2020-03-01
 ---
 word garden
 ===========

@@ -2,7 +2,7 @@
 layout: page.liquid
 title: work
 ---
-{%- for project in collections.project -%}
+{%- for project in collections.project reversed -%}
   {% render "project_item.liquid", project: project %}
 {%- endfor -%}
 
