@@ -1,8 +1,13 @@
 <div class="archive-item">
   <span class="archive-date text"><i>{{ project.data.date-completed }}</i></span>
 
-  {% if project.data.link contains "http" %}
-  <a href="{{ project.data.link }}">
+  
+  {% if project.content == "" %}
+    {% if project.data.link %}
+    <a href="{{ project.data.link }}">
+    {% else %}
+    <a>
+    {% endif %}
   {% else %}
   <a href="/project/{{ project.data.title | slugify }}/">
   {% endif %}

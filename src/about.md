@@ -37,7 +37,7 @@ title: about page
 
 <div id="about-hidden2" style="display: none">
 
-[thank you!](https://sustainablewebdesign.org/) anyway, you should [check out something that catches your eye](/archive)
+[thank you!](https://sustainablewebdesign.org/) anyway, you should [check out something that catches your eye](/projects)
 
 <div/>
 
